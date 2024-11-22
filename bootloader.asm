@@ -36,7 +36,7 @@ int 0x10
 jmp $
 
 frase: db 'Hello World but in Assembly (and now in green letters) i think i forgot to display this', 0x0a ; 54d characters -> 36h
-frase2: db 'ciro vo te come miseravel' ; 25d -> 19h
+frase2: db 'hey my name is Yago! :)' ; 23d -> 17h
 
 
 times 510 - ( $ - $$ ) db 0
